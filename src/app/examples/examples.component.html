@@ -1,0 +1,8 @@
+<nav class="nav-bar">
+  @for (route of routes; track route.path) {
+  <a class="nav-bar__item" [routerLink]="route.path">{{ route.title }}</a>
+  }
+</nav>
+<main class="content">
+  <router-outlet></router-outlet>
+</main>

@@ -1,0 +1,7 @@
+<ul>
+  @for (notification of notifications$ | async; track $index) {
+  <li>{{ notification.message }}</li>
+  } @empty {
+  <li>No new notifications</li>
+  }
+</ul>
