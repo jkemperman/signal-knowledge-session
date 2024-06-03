@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
+## Custom notes
+
+- This project does _not_ include zone.js, demonstrating effective reactivity and change detection without zone.js
+- All components use the `ChangeDetectionStrategy.OnPush`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
