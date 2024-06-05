@@ -9,6 +9,7 @@ import { OutputExampleComponent } from './examples/output-example/output-example
 import { ModelExampleComponent } from './examples/model-example/model-example.component';
 import { ExamplesComponent } from './examples/examples.component';
 import { EffectExampleComponent } from './examples/effect-example/effect-example.component';
+import { OutputFromObservableExampleComponent } from './examples/output-from-observable-example/output-from-observable-example.component';
 
 export const exampleRoutes = [
   {
@@ -50,6 +51,11 @@ export const exampleRoutes = [
     title: 'Output',
     path: 'output-example',
     component: OutputExampleComponent,
+  },
+  {
+    title: 'Output from observable',
+    path: 'output-from-observable-example',
+    component: OutputFromObservableExampleComponent,
   },
   {
     title: 'Model',
